@@ -6,7 +6,6 @@ import logging
 class SubtractCommand(Command):
     def execute(self, params=None):
         if len(params) == 2:
-            a, b == params
-            if operation == 'subtract':
-                print(f'{a} - {b} = {int(a) - int(b)}')
+            a, b = params
+            print(f'{a} - {b} = {int(a) - int(b)}')
         print(params)
